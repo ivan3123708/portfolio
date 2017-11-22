@@ -1,5 +1,11 @@
 .wrapper {
-  width: 70%;
+  width: 90%;
   margin: auto;
   text-align: center;
+}
+
+@media (min-width: 40rem) {
+  .wrapper {
+    width: 70%;
+  }
 }

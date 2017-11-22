@@ -3,3 +3,16 @@
   margin-top: 5rem;
   font-size: 1.6rem;
 }
+
+.projects-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid red;
+}
+
+@media(min-width: 75rem) {
+  .projects-group {
+    flex-direction: row;
+  }
+}

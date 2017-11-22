@@ -17,11 +17,12 @@ const Contact = () => (
       </form>
     </div>
     <div className="contact-links">
+      <p>You can send me a message or contact me via e-mail at: <mark>ivan3123708@gmail.com</mark>.</p>
+      <p>You can also visit my LinkedIn page, or check out my profiles on CodePen and GitHub, where you can see more of my work, on the links bellow.</p>
       <ul>
-        <li><i class="fa fa-envelope fa-3x" aria-hidden="true"></i>ivan3123708@gmail.com</li>
-        <li><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i> LinkedIn</li>
-        <li><a href="https://github.com/ivan3123708" target="blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> GitHub</a></li>
-        <li><a href="https://codepen.io/ivan3123708/" target="blank"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i>CodePen</a></li>
+        <li><a href="https://linkedin.com" target="blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/ivan3123708" target="blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+        <li><a href="https://codepen.io/ivan3123708/" target="blank"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a></li>
       </ul>
     </div>
   </div>

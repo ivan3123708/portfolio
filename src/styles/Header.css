@@ -2,8 +2,8 @@
   position: fixed;
   width: 100%;
   top: 0;
-  /* background: #63639c; */
-  background: #505766;
+  background: #63639c;
+  /* background: #505766; */
   box-shadow: 0 .3rem .5rem #00000080;
 }
 
@@ -16,7 +16,8 @@
 }
 
 .header ul {
-  font-size: 1.6rem;
+  margin: 1rem 0;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
@@ -26,7 +27,7 @@
 }
 
 a {
-  padding: 1rem 0;
+  padding: .65rem 0;
   color: white;
   text-decoration: none;
   -webkit-transition: color .3s;

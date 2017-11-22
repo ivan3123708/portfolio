@@ -1,28 +1,29 @@
 .contact {
   display: flex;
+  flex-direction: column;
   height: 100vh;
-  margin-top: 5rem;
+  margin-top: 2rem;
   font-size: 1.6rem;
   border-top: 1px solid #ffffff00;
 }
 
 .contact-form {
-  width: 60%;
+  width: 100%;
   margin-top: 5rem;
-  /* border: 1px solid green; */
 }
 
 .contact-form p {
+  margin: 2rem 0 1rem 0;
   font-size: 1.8rem;
 }
 
 .contact-form input, textarea {
-  width: 60%;
+  width: 90%;
   padding: 1rem;
   background: #e3f5ff;
   color: #505766;
   font-size: 1.6rem;
-  font-family: 'Quicksand';
+  font-family: 'Catamaran';
   border: none;
   border-radius: .5rem;
 }
@@ -45,32 +46,68 @@
   margin-top: 3rem;
   padding: 1rem 1.8rem;
   background: white;
-  color: #505766;
-  border: 2px solid #505766;
-  font-family: 'Quicksand';
+  color: #63639c;
+  font-weight: bold;
+  border: 2px solid #63639c;
   border-radius: .5rem;
   cursor: pointer;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+.contact-form button:hover {
+  background: #63639c;
+  color: white;
 }
 
 .contact-links {
-  margin-top: 15rem;
-  width: 35%;
-  text-align: left;
+  margin-top: 4rem;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-links p {
+  font-size: 1.8rem;
 }
 
 .contact-links ul {
+  margin-top: 5rem;
+  text-align: center;
   list-style: none;
 }
 
 .contact-links li {
+  display: inline;
   margin: 1rem 0;
   font-size: 1.8rem;
 }
 
 .contact-links a {
-  color: #505766;
+  color: #63639c;
 }
 
 .contact-links i {
   padding-right: 3rem;
+}
+
+@media (min-width: 75rem) {
+  .contact {
+    flex-direction: row;
+    margin-top: 5rem;
+  }
+
+  .contact-form {
+    width: 60%;
+  }
+
+  .contact-form input, textarea {
+    width: 60%;
+  }
+
+  .contact-links {
+    width: 35%;
+    margin-top: 8rem;
+    text-align: left;
+  }
 }
