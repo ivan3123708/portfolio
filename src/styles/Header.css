@@ -3,20 +3,20 @@
   width: 100%;
   top: 0;
   background: #63639c;
-  /* background: #505766; */
+  /* background: #8d66f8; */
   box-shadow: 0 .3rem .5rem #00000080;
 }
 
 .header nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin: auto;
-  width: 70%;
   height: 5rem;
 }
 
 .header ul {
   margin: 1rem 0;
+  padding: 0;
   font-size: 1.8rem;
   font-weight: bold;
 }
@@ -45,4 +45,11 @@ a:hover {
 
 .selected {
   border-bottom: .4rem solid #51d6ff;
+}
+
+@media (min-width: 40rem) {
+  .header nav {
+    width: 70%;
+    justify-content: flex-end;
+  }
 }

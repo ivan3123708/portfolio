@@ -6,6 +6,7 @@ import Home from '../components/Home.js';
 import Projects from '../components/Projects.js';
 import About from '../components/About.js';
 import Contact from '../components/Contact.js';
+import Footer from '../components/Footer.js';
 
 import '../styles/AppRouter.css';
 
@@ -21,6 +22,7 @@ const AppRouter = () => (
           <Route path="/contact" component={Contact} />
         </Switch>
       </div>
+      <Footer />
     </div>
   </BrowserRouter>
 );

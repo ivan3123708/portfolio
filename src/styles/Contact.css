@@ -1,20 +1,17 @@
 .contact {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  margin-top: 2rem;
-  font-size: 1.6rem;
-  border-top: 1px solid #ffffff00;
+  min-height: 100vh;
+  margin-bottom: -3rem;
 }
 
 .contact-form {
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .contact-form p {
   margin: 2rem 0 1rem 0;
-  font-size: 1.8rem;
 }
 
 .contact-form input, textarea {
@@ -43,7 +40,7 @@
 }
 
 .contact-form button {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   padding: 1rem 1.8rem;
   background: white;
   color: #63639c;
@@ -63,12 +60,9 @@
 
 .contact-links {
   margin-top: 4rem;
+  margin-bottom: 4rem;
   width: 100%;
   text-align: center;
-}
-
-.contact-links p {
-  font-size: 1.8rem;
 }
 
 .contact-links ul {
@@ -80,7 +74,6 @@
 .contact-links li {
   display: inline;
   margin: 1rem 0;
-  font-size: 1.8rem;
 }
 
 .contact-links a {
@@ -94,11 +87,11 @@
 @media (min-width: 75rem) {
   .contact {
     flex-direction: row;
-    margin-top: 5rem;
   }
 
   .contact-form {
     width: 60%;
+    margin-top: 10rem;
   }
 
   .contact-form input, textarea {
@@ -107,7 +100,8 @@
 
   .contact-links {
     width: 35%;
-    margin-top: 8rem;
+    margin-top: 13.5rem;
+    margin-bottom: 0;
     text-align: left;
   }
 }
