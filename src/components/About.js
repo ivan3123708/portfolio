@@ -13,7 +13,7 @@ const About = () => (
       </div>
     </div>
     <div className="skills">
-      <h3>Skills</h3>
+      <h3>SKILLS</h3>
       <img src={require('../img/html5.png')} alt="html5" />
       <img src={require('../img/css3.png')} alt="css3" />
       <img src={require('../img/javascript.png')} alt="javascript" />

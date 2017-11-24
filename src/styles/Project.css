@@ -1,7 +1,6 @@
 .project {
   margin: 2rem auto;
-  width: 40rem;
-  height: 30rem;
+  width: 100%;
   border-radius: .5rem;
   box-shadow: 0 0 1rem #00000050;
   
@@ -13,8 +12,50 @@
   border-top-right-radius: .5rem;
 }
 
+.project h4 {
+  margin: .5rem auto 1rem auto;
+}
+
+.project span {
+  padding: 0 .5rem;
+  margin: 0 .2rem;
+  background: #e3f5ff;
+  font-size: 1.4rem;
+  border-radius: .5rem;
+}
+
+.project .buttons {
+  margin: 2rem auto 1rem auto;
+}
+
+.project .buttons button {
+  margin: 0 2rem;
+  padding: .5rem 1.8rem;
+  background: white;
+  color: #63639c;
+  font-size: 1.4rem;
+  border: .15rem solid #63639c;
+  border-radius: .5rem;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+.project .buttons button:hover {
+  background: #63639c;
+  color: white;
+}
+
+@media(min-width: 40rem) {
+  .project {
+    width: 66%;
+  }
+}
+
 @media(min-width: 75rem) {
   .project {
     margin: 1rem;
+    width: 33%;
   }
 }

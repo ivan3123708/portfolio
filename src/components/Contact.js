@@ -13,7 +13,7 @@ const Contact = () => (
         <p>Message</p>
         <textarea rows="7" placeholder="Enter your message"></textarea>
         <br/>
-        <button>Send</button>
+        <button>SEND</button>
       </form>
     </div>
     <div className="contact-links">

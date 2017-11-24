@@ -1,14 +1,19 @@
 .projects {
-  height: 100vh;
-  margin-top: 5rem;
-  font-size: 1.6rem;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto -3rem auto;
+}
+
+.projects h3 {
+  margin: 12rem auto 3rem auto;
+  letter-spacing: .3rem;
 }
 
 .projects-group {
   display: flex;
   flex-direction: column;
+  margin-bottom: 4rem;
   text-align: center;
-  border: 1px solid red;
 }
 
 @media(min-width: 75rem) {
