@@ -2,14 +2,14 @@ import React from 'react';
 
 import '../styles/Project.css';
 
-const Project = () => (
+const Project = (props) => (
   <div className="project">
-    <img src={require('../img/project1.jpg')} alt="hehe" />
-    <h4>Twitter Clone</h4>
-    <span>html5</span><span>css3</span><span>javascript</span><span>react</span><span>redux</span>
+    <img src={require(`../img/${props.img}`)} alt="hehe" />
+    <h4>{props.title}</h4>
+    {props.tools.map((tool) => <span>{tool}</span>)}
     <div className="buttons">
-      <button>DEMO</button>
-      <button>CODE</button>
+      <a href={props.demo} target="blank">DEMO</a>
+      <a href={props.code} target="blank">CODE</a>
     </div>
   </div>
 );

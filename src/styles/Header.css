@@ -3,8 +3,8 @@
   width: 100%;
   top: 0;
   background: #63639c;
-  /* background: #8d66f8; */
   box-shadow: 0 .3rem .5rem #00000080;
+  z-index: 5;
 }
 
 .header nav {
@@ -33,6 +33,7 @@ a {
   -webkit-transition: color .3s;
   -moz-transition: color .3;
   transition: color .3s;
+  letter-spacing: 1px;
 }
 
 a:visited {

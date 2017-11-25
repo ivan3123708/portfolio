@@ -1,7 +1,8 @@
 .about {
-  width: 100%;
+  width: 90%;
   min-height: 100vh;
   margin: 0 auto -3rem auto;
+  text-align: center;
 }
 
 .about-me {
@@ -42,6 +43,12 @@
 .skills img {
   width: 6rem;
   margin: .5rem 1.5rem;
+}
+
+@media(min-width: 40rem) {
+  .about {
+    width: 70%;
+  }
 }
 
 @media (min-width: 75rem) {

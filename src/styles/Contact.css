@@ -1,13 +1,16 @@
 .contact {
   display: flex;
   flex-direction: column;
+  width: 90%;
   min-height: 100vh;
-  margin-bottom: -3rem;
+  margin: 0 auto -3rem auto;
+  text-align: center;
 }
 
 .contact-form {
   width: 100%;
   margin-top: 7rem;
+  margin-bottom: 3rem;
 }
 
 .contact-form p {
@@ -41,10 +44,11 @@
 
 .contact-form button {
   margin-top: 2.5rem;
-  padding: .5rem 1.8rem;
+  padding: .3rem 1.8rem;
   background: white;
   color: #63639c;
   font-size: 1.4rem;
+  font-family: 'Catamaran';
   border: .15rem solid #63639c;
   border-radius: .5rem;
   cursor: pointer;
@@ -84,6 +88,12 @@
   padding-right: 3rem;
 }
 
+@media (min-width: 40rem) {
+  .contact {
+    width: 70%;
+  }
+}
+
 @media (min-width: 75rem) {
   .contact {
     flex-direction: row;
@@ -92,6 +102,7 @@
   .contact-form {
     width: 60%;
     margin-top: 10rem;
+    margin-bottom: 7rem;
   }
 
   .contact-form input, textarea {

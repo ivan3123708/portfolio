@@ -8,20 +8,16 @@ import About from '../components/About.js';
 import Contact from '../components/Contact.js';
 import Footer from '../components/Footer.js';
 
-import '../styles/AppRouter.css';
-
 const AppRouter = () => (
   <BrowserRouter>
     <div>
       <Header />
-      <div className="wrapper">
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
       <Footer />
     </div>
   </BrowserRouter>

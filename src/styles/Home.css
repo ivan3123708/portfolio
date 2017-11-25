@@ -1,5 +1,22 @@
+.camo {
+  position: fixed;
+  width: 100%;
+  height: 8.5px;
+  margin-top: 4.95rem;
+  background: #63639c;
+  z-index: 10;
+}
+
 .home {
-  height: 100vh;
-  margin-top: 5rem;
-  font-size: 1.6rem;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto -3.4rem auto;
+  background: #63639c;
+  color: white;
+  text-align: center;
+}
+
+.home p {
+  padding-top: 10rem;
+  margin: 0;
 }

@@ -1,9 +1,22 @@
+@keyframes fadein {
+  0%    {transform:scale(.5, .5); opacity: 0;}
+  100%  {transform:scale(1, 1); opacity: 1;}
+}
+
 .project {
-  margin: 2rem auto;
+  margin: 1rem 0 2rem 0;
   width: 100%;
   border-radius: .5rem;
   box-shadow: 0 0 1rem #00000050;
-  
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+  animation: fadein 1s;
+}
+
+.project:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0 0 3rem #00000050;
 }
 
 .project img {
@@ -28,9 +41,9 @@
   margin: 2rem auto 1rem auto;
 }
 
-.project .buttons button {
+.project .buttons a {
   margin: 0 2rem;
-  padding: .5rem 1.8rem;
+  padding: .3rem 1.8rem;
   background: white;
   color: #63639c;
   font-size: 1.4rem;
@@ -42,20 +55,19 @@
   transition: .3s;
 }
 
-.project .buttons button:hover {
+.project .buttons a:hover {
   background: #63639c;
   color: white;
 }
 
 @media(min-width: 40rem) {
   .project {
-    width: 66%;
+    width: 45%;
   }
 }
 
 @media(min-width: 75rem) {
   .project {
-    margin: 1rem;
-    width: 33%;
+    width: 30%;
   }
 }
