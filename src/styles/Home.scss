@@ -1,0 +1,81 @@
+.camo {
+  position: fixed;
+  width: 100%;
+  height: 8.5px;
+  margin-top: 4.95rem;
+  background: #63639c;
+  z-index: 10;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto -3.4rem auto;
+  background: #63639c;
+  color: white;
+  text-align: center;
+}
+
+.frame {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  top: 10rem;
+  background: #63639c;
+}
+
+.ring {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #51d6ff;
+  border-radius: 50%;
+}
+
+@for $i from 1 through 20 {
+  .ring-#{$i} {
+    animation: rotate-#{$i} 10s ease-in-out infinite;
+  }
+  @keyframes rotate-#{$i} {
+    $from: ($i * 2);
+    #{$from}% {transform: rotateX(0) rotateY(0) rotateZ(0);}
+    100% {transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg);}
+  }
+}
+
+.title {
+  height: 15rem;
+  margin-top: 45rem;
+}
+
+.title h1 {
+  letter-spacing: 1rem;
+}
+
+@media (max-width: 40rem) {
+  .frame {
+    width: 200px;
+    height: 200px;
+    top: 12rem;
+  }
+
+  .ring {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title {
+    margin-top: 36rem;
+  }
+
+  .title h1 {
+    font-size: 2.4rem;
+  }
+
+  .title p {
+    font-size: 1.4rem;
+  }
+}

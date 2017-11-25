@@ -4,19 +4,231 @@
   height: 8.5px;
   margin-top: 4.95rem;
   background: #63639c;
-  z-index: 10;
-}
+  z-index: 10; }
 
 .home {
+  display: flex;
+  justify-content: space-around;
   width: 100%;
   min-height: 100vh;
   margin: 0 auto -3.4rem auto;
   background: #63639c;
   color: white;
-  text-align: center;
-}
+  text-align: center; }
 
-.home p {
-  padding-top: 10rem;
-  margin: 0;
-}
+.frame {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  top: 10rem;
+  background: #63639c; }
+
+.ring {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #51d6ff;
+  border-radius: 50%; }
+
+.ring-1 {
+  animation: rotate-1 10s ease-in-out infinite; }
+
+@keyframes rotate-1 {
+  2% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-2 {
+  animation: rotate-2 10s ease-in-out infinite; }
+
+@keyframes rotate-2 {
+  4% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-3 {
+  animation: rotate-3 10s ease-in-out infinite; }
+
+@keyframes rotate-3 {
+  6% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-4 {
+  animation: rotate-4 10s ease-in-out infinite; }
+
+@keyframes rotate-4 {
+  8% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-5 {
+  animation: rotate-5 10s ease-in-out infinite; }
+
+@keyframes rotate-5 {
+  10% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-6 {
+  animation: rotate-6 10s ease-in-out infinite; }
+
+@keyframes rotate-6 {
+  12% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-7 {
+  animation: rotate-7 10s ease-in-out infinite; }
+
+@keyframes rotate-7 {
+  14% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-8 {
+  animation: rotate-8 10s ease-in-out infinite; }
+
+@keyframes rotate-8 {
+  16% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-9 {
+  animation: rotate-9 10s ease-in-out infinite; }
+
+@keyframes rotate-9 {
+  18% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-10 {
+  animation: rotate-10 10s ease-in-out infinite; }
+
+@keyframes rotate-10 {
+  20% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-11 {
+  animation: rotate-11 10s ease-in-out infinite; }
+
+@keyframes rotate-11 {
+  22% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-12 {
+  animation: rotate-12 10s ease-in-out infinite; }
+
+@keyframes rotate-12 {
+  24% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-13 {
+  animation: rotate-13 10s ease-in-out infinite; }
+
+@keyframes rotate-13 {
+  26% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-14 {
+  animation: rotate-14 10s ease-in-out infinite; }
+
+@keyframes rotate-14 {
+  28% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-15 {
+  animation: rotate-15 10s ease-in-out infinite; }
+
+@keyframes rotate-15 {
+  30% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-16 {
+  animation: rotate-16 10s ease-in-out infinite; }
+
+@keyframes rotate-16 {
+  32% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-17 {
+  animation: rotate-17 10s ease-in-out infinite; }
+
+@keyframes rotate-17 {
+  34% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-18 {
+  animation: rotate-18 10s ease-in-out infinite; }
+
+@keyframes rotate-18 {
+  36% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-19 {
+  animation: rotate-19 10s ease-in-out infinite; }
+
+@keyframes rotate-19 {
+  38% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.ring-20 {
+  animation: rotate-20 10s ease-in-out infinite; }
+
+@keyframes rotate-20 {
+  40% {
+    transform: rotateX(0) rotateY(0) rotateZ(0); }
+  100% {
+    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+
+.title {
+  height: 15rem;
+  margin-top: 45rem; }
+
+.title h1 {
+  letter-spacing: 1rem; }
+
+@media (max-width: 40rem) {
+  .frame {
+    width: 200px;
+    height: 200px;
+    top: 12rem; }
+  .ring {
+    width: 200px;
+    height: 200px; }
+  .title {
+    margin-top: 36rem; }
+  .title h1 {
+    font-size: 2.4rem; }
+  .title p {
+    font-size: 1.4rem; } }

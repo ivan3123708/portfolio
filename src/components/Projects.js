@@ -15,35 +15,35 @@ class Projects extends React.Component {
           tools: ['html', 'css', 'javascript', 'jquery'],
           demo: 'http://ancient-language.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Javascript%20Calculator',
-          img: 'project1.jpg'
+          img: 'calculator.jpg'
         },
         {
           title: 'Pomodoro Clock',
-          tools: ['html', 'css', 'javascript', 'jquery'],
+          tools: ['html', 'css', 'bootstrap', 'jquery'],
           demo: 'http://jobless-key.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Pomodoro%20Clock',
-          img: 'project1.jpg'
+          img: 'pomodoro.jpg'
         },
         {
           title: 'Random Quote Machine',
           tools: ['html', 'css', 'jquery', 'ajax'],
           demo: 'http://nosy-cause.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Random%20Quote%20Machine',
-          img: 'project1.jpg'
+          img: 'quotes.jpg'
         },
         {
           title: 'Tic Tac Toe',
-          tools: ['html', 'css', 'javascript', 'jquery'],
+          tools: ['html', 'css', 'bootstrap', 'jquery'],
           demo: 'http://materialistic-shape.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Tic%20Tac%20Toe',
-          img: 'project1.jpg'
+          img: 'tic_tac_toe.jpg'
         },
         {
           title: 'Simon Game',
           tools: ['html', 'css', 'javascript', 'jquery'],
           demo: 'http://cowardly-knowledge.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Simon%20Game',
-          img: 'project1.jpg'
+          img: 'simon.jpg'
         }
       ]
     }
@@ -57,6 +57,7 @@ class Projects extends React.Component {
         {this.state.projects.map((project) => {
           return (
             <Project
+              key={project.title}
               title={project.title}
               tools={project.tools}
               demo={project.demo}

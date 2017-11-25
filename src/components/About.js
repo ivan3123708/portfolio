@@ -9,7 +9,8 @@ const About = () => (
         <img src={require('../img/avatar.jpg')} alt="me"/>
       </div>
       <div className="text">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Hi, my name is Ivan and I'm front-end developer from Serbia. Coding was my hobby since teenage years and highschool, and before turning it into profession I used to play around with making and designing websites. Over the last couple of years I'm more oriented towards developing web applications using JavaScript and its libraries, especially React.</p>
+        <p>Together with constantly expanding my knowledge of React ecosystem and other front-end technologies, I enjoy learning new skills such as Node and Express in order to get into backend and be able to build more powerful applications.</p>
       </div>
     </div>
     <div className="skills">

@@ -25,8 +25,14 @@
   height: auto;
 }
 
-.text p {
-  margin: 5rem 0;
+.text p:nth-child(1) {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.text p:nth-child(2) {
+  margin-top: 0;
+  margin-bottom: 5rem;
 }
 
 .skills {
@@ -68,7 +74,7 @@
     width: 60%;
   }
 
-  .text p {
-    margin-top: 16rem;
+  .text p:nth-child(1) {
+    margin-top: 15rem;
   }
 }
