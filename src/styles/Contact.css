@@ -21,7 +21,7 @@
   width: 90%;
   padding: 1rem;
   background: #e3f5ff;
-  color: #505766;
+  color: #5A6782;
   font-size: 1.6rem;
   font-family: 'Catamaran';
   border: none;
@@ -45,11 +45,11 @@
 .contact-form button {
   margin-top: 2.5rem;
   padding: .3rem 1.8rem;
-  background: white;
-  color: #63639c;
+  background: white; 
+  color: #6062d1;
   font-size: 1.4rem;
   font-family: 'Catamaran';
-  border: .15rem solid #63639c;
+  border: .15rem solid #6062d1;
   border-radius: .5rem;
   cursor: pointer;
   -webkit-transition: .3s;
@@ -58,7 +58,7 @@
 }
 
 .contact-form button:hover {
-  background: #63639c;
+  background: #6062d1;
   color: white;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .contact-links a {
-  color: #63639c;
+  color: #6062d1;
 }
 
 .contact-links i {

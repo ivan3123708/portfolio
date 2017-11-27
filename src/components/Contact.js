@@ -20,7 +20,7 @@ const Contact = () => (
       <p>You can send me a message or contact me via e-mail at: <mark>ivan3123708@gmail.com</mark>.</p>
       <p>You can also visit my LinkedIn page, or check out my profiles on CodePen and GitHub, where you can see more of my work, on the links bellow.</p>
       <ul>
-        <li><a href="https://linkedin.com" target="blank"><i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ivan-jakimovski-b07b6b153/" target="blank"><i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
         <li><a href="https://github.com/ivan3123708" target="blank"><i className="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
         <li><a href="https://codepen.io/ivan3123708/" target="blank"><i className="fa fa-codepen fa-3x" aria-hidden="true"></i></a></li>
       </ul>

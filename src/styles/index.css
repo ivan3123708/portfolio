@@ -11,7 +11,7 @@ body {
   height: 100%;
   font-family: 'Catamaran', sans-serif;
   font-size: 1.8rem;
-  color: #505766;
+  color: #5A6782;
 }
 
 input:focus,
@@ -27,5 +27,5 @@ button:focus {
 
 mark {
     background-color: #e3f5ff;
-    color: #505766;
+    color: #5A6782;
 }
