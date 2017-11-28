@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   top: 0;
-  background: #6062d1;
+  background: #7174cf;
   box-shadow: 0 .3rem .5rem #00000080;
   z-index: 5;
 }
@@ -41,11 +41,11 @@ a:visited {
 }
 
 a:hover {
-  color: #51d6ff;
+  color: #75dfff;
 }
 
 .selected {
-  border-bottom: .4rem solid #51d6ff;
+  border-bottom: .4rem solid #75dfff;
 }
 
 @media (min-width: 40rem) {

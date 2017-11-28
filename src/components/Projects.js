@@ -9,41 +9,52 @@ class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      projects: [
+
+      web_apps: [
         {
           title: 'Javascript Calculator',
           tools: ['html', 'css', 'javascript', 'jquery'],
           demo: 'http://ancient-language.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Javascript%20Calculator',
-          img: 'calculator.jpg'
+          img: 'web_apps/calculator.jpg'
         },
         {
           title: 'Pomodoro Clock',
           tools: ['html', 'css', 'bootstrap', 'jquery'],
           demo: 'http://jobless-key.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Pomodoro%20Clock',
-          img: 'pomodoro.jpg'
+          img: 'web_apps/pomodoro.jpg'
         },
         {
           title: 'Random Quote Machine',
           tools: ['html', 'css', 'jquery', 'ajax'],
           demo: 'http://nosy-cause.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Random%20Quote%20Machine',
-          img: 'quotes.jpg'
+          img: 'web_apps/quotes.jpg'
         },
         {
           title: 'Tic Tac Toe',
           tools: ['html', 'css', 'bootstrap', 'jquery'],
           demo: 'http://materialistic-shape.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Tic%20Tac%20Toe',
-          img: 'tic_tac_toe.jpg'
+          img: 'web_apps/tic_tac_toe.jpg'
         },
         {
           title: 'Simon Game',
           tools: ['html', 'css', 'javascript', 'jquery'],
           demo: 'http://cowardly-knowledge.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Simon%20Game',
-          img: 'simon.jpg'
+          img: 'web_apps/simon.jpg'
+        }
+      ],
+
+      css_art: [
+        {
+          title: 'Homer',
+          tools: ['html', 'scss'],
+          demo: 'https://codepen.io/ivan3123708/full/YEOYdO/',
+          code: 'https://codepen.io/ivan3123708/pen/YEOYdO',
+          img: 'css_art/homer.gif'
         }
       ]
     }
@@ -54,18 +65,33 @@ class Projects extends React.Component {
       <div className="projects">
         <h3>WEB APPS</h3>
         <div className="projects-group">
-        {this.state.projects.map((project) => {
+        {this.state.web_apps.map((web_app) => {
           return (
             <Project
-              key={project.title}
-              title={project.title}
-              tools={project.tools}
-              demo={project.demo}
-              code={project.code}
-              img={project.img}
+              key={web_app.title}
+              title={web_app.title}
+              tools={web_app.tools}
+              demo={web_app.demo}
+              code={web_app.code}
+              img={web_app.img}
             />
           );
         })}
+        </div>
+        <h3>CSS ART</h3>
+        <div className="projects-group">
+          {this.state.css_art.map((art) => {
+            return (
+              <Project
+                key={art.title}
+                title={art.title}
+                tools={art.tools}
+                demo={art.demo}
+                code={art.code}
+                img={art.img}
+              />
+            );
+          })}
         </div>
       </div>
     );
