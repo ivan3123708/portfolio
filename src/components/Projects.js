@@ -55,6 +55,13 @@ class Projects extends React.Component {
           demo: 'https://codepen.io/ivan3123708/full/YEOYdO/',
           code: 'https://codepen.io/ivan3123708/pen/YEOYdO',
           img: 'css_art/homer.gif'
+        },
+        {
+          title: 'Stimpy',
+          tools: ['html', 'scss'],
+          demo: 'https://codepen.io/ivan3123708/full/XzojEr/',
+          code: 'https://codepen.io/ivan3123708/pen/XzojEr/',
+          img: 'css_art/stimpy.png'
         }
       ]
     }
