@@ -50,6 +50,13 @@ class Projects extends React.Component {
 
       css_art: [
         {
+          title: 'Windmill',
+          tools: ['html', 'scss'],
+          demo: 'https://codepen.io/ivan3123708/full/NwomLX/',
+          code: 'https://codepen.io/ivan3123708/pen/NwomLX',
+          img: 'css_art/windmill.gif'
+        },
+        {
           title: 'Homer',
           tools: ['html', 'scss'],
           demo: 'https://codepen.io/ivan3123708/full/YEOYdO/',
