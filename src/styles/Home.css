@@ -12,7 +12,10 @@
   width: 100%;
   min-height: 100vh;
   margin: 0 auto -3.4rem auto;
-  background: #7174cf;
+  background-image: url("../img/cat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
   color: white;
   text-align: center; }
 

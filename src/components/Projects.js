@@ -64,6 +64,13 @@ class Projects extends React.Component {
           img: 'css_art/homer.gif'
         },
         {
+          title: 'Sunset',
+          tools: ['html', 'scss'],
+          demo: 'https://codepen.io/ivan3123708/full/OOGBOx/',
+          code: 'https://codepen.io/ivan3123708/pen/OOGBOx',
+          img: 'css_art/sunset.png'
+        },
+        {
           title: 'Stimpy',
           tools: ['html', 'scss'],
           demo: 'https://codepen.io/ivan3123708/full/XzojEr/',
