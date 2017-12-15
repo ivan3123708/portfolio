@@ -16,8 +16,9 @@
 }
 
 .photo img {
-  max-width: 20rem;
+  max-width: 19rem;
   margin-top: 12rem;
+  border-radius: .5rem;
 }
 
 .text {
