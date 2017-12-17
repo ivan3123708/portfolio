@@ -12,7 +12,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn build"
+    "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
