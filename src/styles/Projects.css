@@ -1,12 +1,13 @@
 .projects {
   width: 90%;
-  max-width: 100rem;
+  max-width: 120rem;
   min-height: 100vh;
   margin: 0 auto -3rem auto;
   text-align: center;
 }
 
 .projects h3 {
+  margin: 3rem;
   letter-spacing: .3rem;
 }
 

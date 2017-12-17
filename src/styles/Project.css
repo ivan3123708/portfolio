@@ -29,6 +29,12 @@
   margin: .5rem auto 1rem auto;
 }
 
+.project p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.4rem;
+}
+
 .project span {
   padding: 0 .5rem;
   margin: 0 .2rem;

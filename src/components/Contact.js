@@ -5,15 +5,15 @@ import '../styles/Contact.css';
 const Contact = () => (
   <div className="contact">
     <div className="contact-form">
-      <form>
+      <form method="POST" action="send">
         <p>Name</p>
-        <input type="text" placeholder="Enter your name" />
+        <input type="text" name="name" placeholder="Enter your name" />
         <p>E-mail</p>
-        <input type="email" placeholder="Enter your e-mail" />
+        <input type="email" name="email" placeholder="Enter your e-mail" />
         <p>Message</p>
-        <textarea rows="7" placeholder="Enter your message"></textarea>
-        <br/>
-        <button>SEND</button>
+        <textarea rows="7" name="message" placeholder="Enter your message"></textarea>
+        <br />
+        <button type="submit">SEND</button>
       </form>
     </div>
     <div className="contact-links">

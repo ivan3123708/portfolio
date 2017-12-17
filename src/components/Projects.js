@@ -12,7 +12,16 @@ class Projects extends React.Component {
 
       web_apps: [
         {
+          title: 'Recipe Box',
+          description: 'Building this app taught me how to configure webpack, setup simple express server, deploy on Heroku and many other things about React in general.',
+          tools: ['scss', 'react', 'webpack'],
+          demo: 'https://ij-recipe-box.herokuapp.com/',
+          code: 'https://github.com/ivan3123708/freeCodeCamp-React-D3-Projects/tree/master/Recipe%20Box',
+          img: 'web_apps/recipe_box.jpg'
+        },
+        {
           title: 'Javascript Calculator',
+          description: 'One of my first projects. Building it was great practice for CSS and jQuery, but also helped me understand Javascript data types better.',
           tools: ['html', 'css', 'javascript', 'jquery'],
           demo: 'http://ancient-language.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Javascript%20Calculator',
@@ -20,6 +29,7 @@ class Projects extends React.Component {
         },
         {
           title: 'Pomodoro Clock',
+          description: 'Work timer app for tracking work and pause time which you can set, built using setInterval functions and jQuery.',
           tools: ['html', 'css', 'bootstrap', 'jquery'],
           demo: 'http://jobless-key.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Pomodoro%20Clock',
@@ -27,6 +37,7 @@ class Projects extends React.Component {
         },
         {
           title: 'Random Quote Machine',
+          description: 'Used AJAX request to fetch data from external API. User can get new quote and share it using twitter button.',
           tools: ['html', 'css', 'jquery', 'ajax'],
           demo: 'http://nosy-cause.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Random%20Quote%20Machine',
@@ -34,6 +45,7 @@ class Projects extends React.Component {
         },
         {
           title: 'Tic Tac Toe',
+          description: 'Classic tic-tac-toe game where user can choose whether to play with X or O and restart the game after round ends. Used bootstrap grid to align the fields.',
           tools: ['html', 'css', 'bootstrap', 'jquery'],
           demo: 'http://materialistic-shape.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Tic%20Tac%20Toe',
@@ -41,6 +53,7 @@ class Projects extends React.Component {
         },
         {
           title: 'Simon Game',
+          description: 'Game for training your memory by repeating the series of tone and light signals. Making it was a good practice for data structures manipulation.',
           tools: ['html', 'css', 'javascript', 'jquery'],
           demo: 'http://cowardly-knowledge.surge.sh/',
           code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Simon%20Game',
@@ -51,28 +64,24 @@ class Projects extends React.Component {
       css_art: [
         {
           title: 'Windmill',
-          tools: ['html', 'scss'],
           demo: 'https://codepen.io/ivan3123708/full/NwomLX/',
           code: 'https://codepen.io/ivan3123708/pen/NwomLX',
           img: 'css_art/windmill.gif'
         },
         {
           title: 'Homer',
-          tools: ['html', 'scss'],
           demo: 'https://codepen.io/ivan3123708/full/YEOYdO/',
           code: 'https://codepen.io/ivan3123708/pen/YEOYdO',
           img: 'css_art/homer.gif'
         },
         {
           title: 'Sunset',
-          tools: ['html', 'scss'],
           demo: 'https://codepen.io/ivan3123708/full/OOGBOx/',
           code: 'https://codepen.io/ivan3123708/pen/OOGBOx',
           img: 'css_art/sunset.png'
         },
         {
           title: 'Stimpy',
-          tools: ['html', 'scss'],
           demo: 'https://codepen.io/ivan3123708/full/XzojEr/',
           code: 'https://codepen.io/ivan3123708/pen/XzojEr/',
           img: 'css_art/stimpy.png'
@@ -91,6 +100,7 @@ class Projects extends React.Component {
             <Project
               key={web_app.title}
               title={web_app.title}
+              description={web_app.description}
               tools={web_app.tools}
               demo={web_app.demo}
               code={web_app.code}
@@ -106,7 +116,6 @@ class Projects extends React.Component {
               <Project
                 key={art.title}
                 title={art.title}
-                tools={art.tools}
                 demo={art.demo}
                 code={art.code}
                 img={art.img}
