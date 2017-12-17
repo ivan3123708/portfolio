@@ -6,6 +6,7 @@ const xoauth2 = require('xoauth2');
 
 const app = express();
 const buildPath = path.join(__dirname, '..', 'build');
+const port = process.env.PORT || 3000;
 
 // Static folder setup
 app.use(express.static(buildPath));
@@ -60,6 +61,6 @@ app.post('/send', (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('Server running...');
 });
