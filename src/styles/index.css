@@ -21,6 +21,14 @@ button:focus {
     outline: none;
 }
 
+input::placeholder {
+  color: #5A6782;
+}
+
+textarea::placeholder {
+  color: #5A6782;
+}
+
 ::selection {
   background: #e3f5ff;
 }

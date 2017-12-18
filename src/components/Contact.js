@@ -7,9 +7,9 @@ const Contact = () => (
     <div className="contact-form">
       <form method="POST" action="send">
         <p>Name</p>
-        <input type="text" name="name" placeholder="Enter your name" />
+        <input type="text" name="name" placeholder="Enter your name"/>
         <p>E-mail</p>
-        <input type="email" name="email" placeholder="Enter your e-mail" />
+        <input type="email" name="email" placeholder="Enter your e-mail"/>
         <p>Message</p>
         <textarea rows="7" name="message" placeholder="Enter your message"></textarea>
         <br />

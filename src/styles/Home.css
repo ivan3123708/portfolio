@@ -4,7 +4,8 @@
   height: 8.5px;
   margin-top: 4.95rem;
   background: #7174cf;
-  z-index: 10; }
+  z-index: 10;
+}
 
 .home {
   display: flex;
@@ -12,226 +13,53 @@
   width: 100%;
   min-height: 100vh;
   margin: 0 auto -3.4rem auto;
-  background-image: url("../img/cat.jpg");
+  background-image: url('../img/cat.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-position: center top;
   color: white;
-  text-align: center; }
-
-.frame {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  margin: auto;
-  top: 10rem;
-  background: none; }
-
-.ring {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  border: 2px solid #75dfff;
-  border-radius: 50%; }
-
-.ring-1 {
-  animation: rotate-1 10s ease-in-out infinite; }
-
-@keyframes rotate-1 {
-  2% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-2 {
-  animation: rotate-2 10s ease-in-out infinite; }
-
-@keyframes rotate-2 {
-  4% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-3 {
-  animation: rotate-3 10s ease-in-out infinite; }
-
-@keyframes rotate-3 {
-  6% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-4 {
-  animation: rotate-4 10s ease-in-out infinite; }
-
-@keyframes rotate-4 {
-  8% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-5 {
-  animation: rotate-5 10s ease-in-out infinite; }
-
-@keyframes rotate-5 {
-  10% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-6 {
-  animation: rotate-6 10s ease-in-out infinite; }
-
-@keyframes rotate-6 {
-  12% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-7 {
-  animation: rotate-7 10s ease-in-out infinite; }
-
-@keyframes rotate-7 {
-  14% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-8 {
-  animation: rotate-8 10s ease-in-out infinite; }
-
-@keyframes rotate-8 {
-  16% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-9 {
-  animation: rotate-9 10s ease-in-out infinite; }
-
-@keyframes rotate-9 {
-  18% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-10 {
-  animation: rotate-10 10s ease-in-out infinite; }
-
-@keyframes rotate-10 {
-  20% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-11 {
-  animation: rotate-11 10s ease-in-out infinite; }
-
-@keyframes rotate-11 {
-  22% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-12 {
-  animation: rotate-12 10s ease-in-out infinite; }
-
-@keyframes rotate-12 {
-  24% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-13 {
-  animation: rotate-13 10s ease-in-out infinite; }
-
-@keyframes rotate-13 {
-  26% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-14 {
-  animation: rotate-14 10s ease-in-out infinite; }
-
-@keyframes rotate-14 {
-  28% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-15 {
-  animation: rotate-15 10s ease-in-out infinite; }
-
-@keyframes rotate-15 {
-  30% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-16 {
-  animation: rotate-16 10s ease-in-out infinite; }
-
-@keyframes rotate-16 {
-  32% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-17 {
-  animation: rotate-17 10s ease-in-out infinite; }
-
-@keyframes rotate-17 {
-  34% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-18 {
-  animation: rotate-18 10s ease-in-out infinite; }
-
-@keyframes rotate-18 {
-  36% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-19 {
-  animation: rotate-19 10s ease-in-out infinite; }
-
-@keyframes rotate-19 {
-  38% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
-
-.ring-20 {
-  animation: rotate-20 10s ease-in-out infinite; }
-
-@keyframes rotate-20 {
-  40% {
-    transform: rotateX(0) rotateY(0) rotateZ(0); }
-  100% {
-    transform: rotateX(360deg) rotateY(1975deg) rotateZ(1975deg); } }
+  text-align: center;
+}
 
 .title {
-  height: 15rem;
-  margin-top: 45rem; }
+  height: 25rem;
+  margin-top: 20rem;
+}
 
 .title h1 {
-  letter-spacing: 1rem; }
+  letter-spacing: 1rem;
+}
+
+.home-links {
+  margin: 7rem auto;
+}
+
+.home-link {
+  margin: 2.5rem 1rem;
+  padding: .3rem 2rem;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: 'Catamaran';
+  letter-spacing: .1rem;
+  border: .15rem solid #75dfff;
+  border-radius: .5rem;
+}
+
+.home-link:hover {
+  color: white;
+}
+
+.contact-link {
+  background: #75dfff;
+}
+
+.work-link {
+  background: transparent;
+}
 
 @media (max-width: 40rem) {
-  .frame {
-    width: 200px;
-    height: 200px;
-    top: 12rem; }
-  .ring {
-    width: 200px;
-    height: 200px; }
-  .title {
-    margin-top: 36rem; }
   .title h1 {
-    font-size: 2.4rem; }
-  .title p {
-    font-size: 1.4rem; } }
+    font-size: 2.5rem;
+  }
+}
