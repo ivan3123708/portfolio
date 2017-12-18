@@ -81,6 +81,12 @@ class Projects extends React.Component {
           img: 'css_art/sunset.png'
         },
         {
+          title: 'Rings',
+          demo: 'https://codepen.io/ivan3123708/full/QOByqj/',
+          code: 'https://codepen.io/ivan3123708/pen/QOByqj/',
+          img: 'css_art/rings.gif'
+        },
+        {
           title: 'Stimpy',
           demo: 'https://codepen.io/ivan3123708/full/XzojEr/',
           code: 'https://codepen.io/ivan3123708/pen/XzojEr/',
