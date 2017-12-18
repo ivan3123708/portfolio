@@ -22,11 +22,13 @@ button:focus {
 }
 
 input::placeholder {
-  color: #5A6782;
+  color: #5a678294;
+  font-style: italic;
 }
 
 textarea::placeholder {
-  color: #5A6782;
+  color: #5a678294;
+  font-style: italic;
 }
 
 ::selection {
