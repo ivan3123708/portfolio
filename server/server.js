@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
-const xoauth2 = require('xoauth2');
 
 const app = express();
 const buildPath = path.join(__dirname, '..', 'build');
@@ -20,24 +19,19 @@ app.get('*', (req, res) => {
 });
 
 app.post('/send', (req, res) => {
-
   const output = `
-    <h3>Contact info:</h3>
-    <p>Name: ${req.body.name}</p>
-    <p>E-mail: ${req.body.email}</p>
-    <h3>Message:</h3>
+    <h3><i>Contact info:</i></h3>
+    <p><i>Name: </i> ${req.body.name}</p>
+    <p><i>E-mail: </i> ${req.body.email}</p>
+    <h3><i>Message:</i></h3>
     <p>${req.body.message}</p>
   `;
 
   let transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: 'Gmail',
     auth: {
-      XOAuth2: xoauth2.createXOAuth2Generator({
-        user: 'sonithepanda@gmail.com',
-        clientId: '460422257608 - h18i84nm10rt93g8tinpctnj6hb0b6g0.apps.googleusercontent.com',
-        clientSecret: 'BmC2mJwCM0PaNXqokXDMRlXE',
-        refreshToken: '1/zvWby5R1ml1GVa1AnlVLeer8tsix1AwpXvDBjagnLVo'
-      })
+      user: 'sonithepanda@gmail.com',
+      pass: 'semetijebem'
     },
     tls: {
       rejectUnauthorized: false
@@ -45,10 +39,9 @@ app.post('/send', (req, res) => {
   });
 
   let mailOptions = {
-    from: '"Portfolio Contact Form" <sonithepanda@gmail.com>',
+    from: `${req.body.name} <sonithepanda@gmail.com>`,
     to: 'ivan3123708@gmail.com',
-    subject: 'Contact you',
-    text: 'Hello world?',
+    subject: 'PORTFOLIO CONTACT MESSAGE',
     html: output
   };
 

@@ -48,7 +48,9 @@
   background: white; 
   color: #7174cf;
   font-size: 1.4rem;
+  font-weight: bold;
   font-family: 'Catamaran';
+  letter-spacing: .1rem;
   border: .15rem solid #7174cf;
   border-radius: .5rem;
   cursor: pointer;
