@@ -12,6 +12,14 @@ class Projects extends React.Component {
 
       web_apps: [
         {
+          title: 'World Factbook',
+          description: 'Search countries, filter and sort the data. Made this project from scratch to practice react, redux, configuring webpack, fetching data from external API...',
+          tools: ['scss', 'react', 'redux', 'webpack', 'ajax'],
+          demo: 'https://ij-world-factbook.herokuapp.com/',
+          code: 'https://github.com/ivan3123708/world-factbook',
+          img: 'web_apps/world_factbook.jpg'
+        },
+        {
           title: 'Recipe Box',
           description: 'Building this app taught me how to configure webpack, setup simple express server, deploy on Heroku and many other things about React in general.',
           tools: ['scss', 'react', 'webpack'],
