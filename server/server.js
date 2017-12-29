@@ -20,10 +20,10 @@ app.get('*', (req, res) => {
 
 app.post('/send', (req, res) => {
   const output = `
-    <h3><i>Contact info:</i></h3>
-    <p><i>Name: </i> ${req.body.name}</p>
-    <p><i>E-mail: </i> ${req.body.email}</p>
-    <h3><i>Message:</i></h3>
+    <h3>Contact info:</h3>
+    <p>Name: ${req.body.name}</p>
+    <p>E-mail: ${req.body.email}</p>
+    <h3>Message:</h3>
     <p>${req.body.message}</p>
   `;
 
