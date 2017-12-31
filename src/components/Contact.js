@@ -16,10 +16,6 @@ class Contact extends React.Component {
 
   onSendMessage = (e) => {
     this.setState({ message: 'Your message has been sent!' });
-
-    e.target.elements.name.value = '';
-    e.target.elements.email.value = '';
-    e.target.elements.message.value = '';
   }
 
   render() {
