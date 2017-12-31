@@ -13,6 +13,10 @@
   margin-bottom: 3rem;
 }
 
+.message {
+  height: 1.6rem;
+}
+
 .contact-form p {
   margin: 2rem 0 1rem 0;
 }
@@ -104,7 +108,7 @@
   .contact-form {
     width: 60%;
     margin-top: 10rem;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
   }
 
   .contact-form input, textarea {
@@ -113,7 +117,7 @@
 
   .contact-links {
     width: 35%;
-    margin-top: 13.5rem;
+    margin-top: 15rem;
     margin-bottom: 0;
   }
 }

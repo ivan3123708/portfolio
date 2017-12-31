@@ -52,6 +52,11 @@ app.post('/send', (req, res) => {
     console.log('Message sent: %s', info.messageId);
     console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
   });
+
+  setTimeout(() => {
+    res.redirect('/');
+  }, 3000);
+  
 });
 
 app.listen(port, () => {
