@@ -31,7 +31,7 @@ a {
   color: white;
   text-decoration: none;
   -webkit-transition: color .3s;
-  -moz-transition: color .3;
+  -moz-transition: color .3s;
   transition: color .3s;
   letter-spacing: 1px;
 }

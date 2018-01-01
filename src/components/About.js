@@ -10,7 +10,7 @@ const About = () => (
       </div>
       <div className="text">
         <p>Hi, my name is Ivan and I'm front-end developer from Serbia. I started coding in highschool and since then it became my hobby. Before turning it into profession I used to play around with making and designing websites. Over the last couple of years I'm more oriented towards developing web applications using JavaScript and its libraries, especially React.</p>
-        <p>Together with constantly expanding my knowledge of React ecosystem and other front-end technologies, I enjoy learning new skills such as Node and Express in order to get into backend and be able to build more powerful applications.</p>
+        <p>Together with constantly expanding my knowledge of React ecosystem and other front-end technologies, I enjoy learning new skills such as Node and Express in order to get into backend and be able to build more powerful applications. I also love solving coding problems on <a href="https://www.codewars.com/users/ivan3123708" target="blank">Codewars</a>.</p>
       </div>
     </div>
     <div className="skills">

@@ -49,14 +49,14 @@
 .contact-form button {
   margin-top: 2.5rem;
   padding: .3rem 1.8rem;
-  background: white; 
-  color: #7174cf;
+  background: #7174cf;
+  color: white;
   font-size: 1.4rem;
   font-weight: bold;
   font-family: 'Catamaran';
   letter-spacing: .1rem;
-  border: .15rem solid #7174cf;
   border-radius: .5rem;
+  border: none;
   cursor: pointer;
   -webkit-transition: .3s;
   -moz-transition: .3s;
@@ -64,7 +64,7 @@
 }
 
 .contact-form button:hover {
-  background: #7174cf;
+  background: #75dfff;
   color: white;
 }
 

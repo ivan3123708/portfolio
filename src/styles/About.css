@@ -36,6 +36,14 @@
   margin-bottom: 5rem;
 }
 
+.text a {
+  color: #7174cf;
+}
+
+.text a:hover {
+  color: #75dfff;
+}
+
 .skills {
   width: 100%;
   height: auto;

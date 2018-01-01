@@ -50,11 +50,11 @@
 .project .buttons a {
   margin: 0 2rem;
   padding: .3rem 1.8rem;
-  background: white;
-  color: #7174cf;
+  background: #7174cf;
+  color: white;
   font-size: 1.4rem;
   font-weight: bold;
-  border: .15rem solid #7174cf;
+  border: none;
   border-radius: .5rem;
   cursor: pointer;
   -webkit-transition: .3s;
@@ -63,7 +63,7 @@
 }
 
 .project .buttons a:hover {
-  background: #7174cf;
+  background: #75dfff;
   color: white;
 }
 
