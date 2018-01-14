@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const private = require('../config/private');
 
 const app = express();
 const buildPath = path.join(__dirname, '..', 'build');
@@ -30,8 +31,8 @@ app.post('/send', (req, res) => {
   let transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'sonithepanda@gmail.com',
-      pass: 'semetijebem'
+      user: private.sender.email,
+      pass: private.sender.password
     },
     tls: {
       rejectUnauthorized: false
@@ -39,8 +40,8 @@ app.post('/send', (req, res) => {
   });
 
   let mailOptions = {
-    from: `${req.body.name} <sonithepanda@gmail.com>`,
-    to: 'ivan3123708@gmail.com',
+    from: `${req.body.name} <${private.sender.email}>`,
+    to: private.receiver.email,
     subject: 'PORTFOLIO CONTACT MESSAGE',
     html: output
   };

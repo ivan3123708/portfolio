@@ -90,6 +90,10 @@
   color: #7174cf;
 }
 
+.contact-links a:hover {
+  color: #75dfff;
+}
+
 .contact-links i {
   padding-right: 3rem;
 }
