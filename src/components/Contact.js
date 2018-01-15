@@ -23,7 +23,7 @@ class Contact extends React.Component {
       <div className="contact">
         <div className="contact-form">
           <div className="message">{this.state.message}</div>
-          <form method="POST" action="send" onSubmit={this.onSendMessage}>
+          <form action="/send_mail" method="POST" onSubmit={this.onSendMessage}>
             <p>Name</p>
             <input type="text" name="name" placeholder="Enter your name" />
             <p>E-mail</p>

@@ -19,7 +19,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(buildPath, 'index.html'));
 });
 
-app.post('/send', (req, res) => {
+app.post('/send_mail', (req, res) => {
   const output = `
     <h3>Contact info:</h3>
     <p>Name: ${req.body.name}</p>
