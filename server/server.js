@@ -2,22 +2,15 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
-const private = require('../config/private');
+const keys = require('../config/keys');
 
 const app = express();
 const buildPath = path.join(__dirname, '..', 'build');
 const port = process.env.PORT || 3000;
 
-// Static folder setup
 app.use(express.static(buildPath));
-
-// Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(buildPath, 'index.html'));
-});
 
 app.post('/send_mail', (req, res) => {
   const output = `
@@ -31,8 +24,8 @@ app.post('/send_mail', (req, res) => {
   let transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: private.sender.email,
-      pass: private.sender.password
+      user: keys.senderEmail,
+      pass: keys.senderPassword
     },
     tls: {
       rejectUnauthorized: false
@@ -40,8 +33,8 @@ app.post('/send_mail', (req, res) => {
   });
 
   let mailOptions = {
-    from: `${req.body.name} <${private.sender.email}>`,
-    to: private.receiver.email,
+    from: `${req.body.name} <${keys.senderEmail}>`,
+    to: keys.receiverEmail,
     subject: 'PORTFOLIO CONTACT MESSAGE',
     html: output
   };
@@ -57,7 +50,10 @@ app.post('/send_mail', (req, res) => {
   setTimeout(() => {
     res.redirect('/');
   }, 3000);
-  
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(buildPath, 'index.html'));
 });
 
 app.listen(port, () => {
