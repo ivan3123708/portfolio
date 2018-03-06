@@ -4,7 +4,7 @@ import '../styles/Project.css';
 
 const Project = (props) => (
   <div className="project">
-    <img src={require(`../img/${props.img}`)} />
+    <img src={require(`../img/${props.img}`)} alt={props.title} />
     <h4>{props.title}</h4>
     <p>{props.description}</p>
     <div className="tools">
