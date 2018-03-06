@@ -35,16 +35,24 @@
   font-size: 1.4rem;
 }
 
+.project .tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 5.3rem;
+}
+
 .project span {
+  max-height: 2.5rem;
   padding: 0 .5rem;
-  margin: 0 .2rem;
+  margin: auto .2rem;
   background: #e3f5ff;
   font-size: 1.4rem;
   border-radius: .5rem;
 }
 
 .project .buttons {
-  margin: 2rem auto 1rem auto;
+  margin: 1rem auto;
 }
 
 .project .buttons a {
