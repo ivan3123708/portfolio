@@ -12,6 +12,7 @@ body {
   font-family: 'Catamaran', sans-serif;
   font-size: 1.8rem;
   color: #5A6782;
+  background: #f7f8fa;
 }
 
 input:focus,

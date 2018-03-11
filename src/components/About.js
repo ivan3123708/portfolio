@@ -1,5 +1,4 @@
 import React from 'react';
-
 import '../styles/About.css';
 
 const About = () => (
@@ -22,6 +21,10 @@ const About = () => (
       <img src={require('../img/scss.png')} alt="scss" />
       <img src={require('../img/react.png')} alt="react" />
       <img src={require('../img/redux.png')} alt="redux" />
+      <img src={require('../img/node.png')} alt="node" />
+      <img src={require('../img/express.png')} alt="express" />
+      <img src={require('../img/mongodb.png')} alt="mongodb" />
+      <img src={require('../img/material-ui.png')} alt="material-ui" />
       <img src={require('../img/webpack.png')} alt="webpack" />
       <img src={require('../img/git.png')} alt="git" />
     </div>

@@ -7,16 +7,12 @@
   margin: 1rem 0 2rem 0;
   width: 100%;
   border-radius: .5rem;
+  background: white;
   box-shadow: 0 0 1rem #00000050;
   -webkit-transition: .3s;
   -moz-transition: .3s;
   transition: .3s;
   animation: fadein 1s;
-}
-
-.project:hover {
-  transform: scale(1.05, 1.05);
-  box-shadow: 0 0 3rem #00000050;
 }
 
 .project img {
@@ -80,6 +76,11 @@
 @media(min-width: 40rem) {
   .project {
     width: 45%;
+  }
+
+  .project:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 0 3rem #00000050;
   }
 }
 

@@ -24,11 +24,11 @@
 .contact-form input, textarea {
   width: 90%;
   padding: 1rem;
-  background: #e3f5ff;
+  background: white;
   color: #5A6782;
   font-size: 1.6rem;
   font-family: 'Catamaran';
-  border: none;
+  border: 1px solid #c6cbd6;
   border-radius: .5rem;
 }
 

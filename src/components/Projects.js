@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Project from './Project.js';
-
 import projectsData from '../data/projectsData';
 import '../styles/Projects.css';
 
@@ -15,6 +13,7 @@ const Projects = () => {
         return (
           <Project
             key={web_app.title}
+            group="web-app"
             title={web_app.title}
             description={web_app.description}
             tools={web_app.tools}
@@ -31,6 +30,7 @@ const Projects = () => {
           return (
             <Project
               key={art.title}
+              group="css-art"
               title={art.title}
               demo={art.demo}
               code={art.code}

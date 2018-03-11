@@ -45,8 +45,8 @@
 }
 
 .skills {
-  width: 100%;
   height: auto;
+  margin: auto;
   padding-bottom: 4rem;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .skills img {
-  width: 6rem;
+  height: 9rem;
   margin: .5rem 1.5rem;
 }
 
@@ -85,5 +85,9 @@
 
   .text p:nth-child(1) {
     margin-top: 15rem;
+  }
+
+  .skills {
+    width: 100rem;
   }
 }
