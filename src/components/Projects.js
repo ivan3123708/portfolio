@@ -24,6 +24,23 @@ const Projects = () => {
         );
       })}
       </div>
+      <h3>API MICROSERVICES</h3>
+      <div className="projects-group">
+        {projectsData.api_microservices.map((api) => {
+          return (
+            <Project
+              key={api.title}
+              group="api-microservice"
+              title={api.title}
+              description={api.description}
+              tools={api.tools}
+              demo={api.demo}
+              code={api.code}
+              img={api.img}
+            />
+          );
+        })}
+      </div>
       <h3>CSS ART</h3>
       <div className="projects-group">
         {projectsData.css_art.map((art) => {
