@@ -25,7 +25,8 @@
   margin: .5rem auto 1rem auto;
 }
 
-.project p {
+.project .description {
+  min-height: 6.8rem;
   margin-left: 2rem;
   margin-right: 2rem;
   font-size: 1.4rem;

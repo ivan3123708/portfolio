@@ -67,6 +67,13 @@ module.exports = {
   ],
   api_microservices: [
     {
+      title: 'Request Header Parser',
+      description: 'Get IP address, version info, language & operating system for your browser.',
+      demo: 'https://ij-req-head-parser.glitch.me/',
+      code: 'https://github.com/ivan3123708/freeCodeCamp-Backend-Projects/tree/master/Request_Header_Parser',
+      img: 'api_microservices/request_header_parser.png'
+    },
+    {
       title: 'Timestamp',
       description: 'Provide unix timestamp or date string, API returns both timestamp and human readable date from provided value.',
       demo: 'https://ij-timestamp.glitch.me/',
