@@ -67,6 +67,13 @@ module.exports = {
   ],
   api_microservices: [
     {
+      title: 'Image Search Abstraction Layer',
+      description: 'Get image url, context page, alt text matching provided url parameter, show recent search terms. Using Google Custom Search Engine API.',
+      demo: 'https://ij-img-search.glitch.me/',
+      code: 'https://github.com/ivan3123708/freeCodeCamp-Backend-Projects/tree/master/Image_Search_Abstraction_Layer',
+      img: 'api_microservices/image_search_abstraction_layer.png'
+    },
+    {
       title: 'Request Header Parser',
       description: 'Get IP address, version info, language & operating system for your browser.',
       demo: 'https://ij-req-head-parser.glitch.me/',

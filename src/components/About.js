@@ -27,6 +27,7 @@ const About = () => (
       <img src={require('../img/material-ui.png')} alt="material-ui" />
       <img src={require('../img/webpack.png')} alt="webpack" />
       <img src={require('../img/git.png')} alt="git" />
+      <img src={require('../img/linux.png')} alt="linux" />
     </div>
   </div>
 );
