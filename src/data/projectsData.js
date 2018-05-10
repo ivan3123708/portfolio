@@ -1,6 +1,14 @@
 module.exports = {
   web_apps: [
     {
+      title: 'Chat App',
+      description: 'React & socket.io chat application which allows user to send messages to other people. Works on desktop, tablets and smartphones.',
+      tools: ['react', 'node/express', 'socket.io', 'sass', 'webpack'],
+      demo: 'https://ij-chat-app.herokuapp.com/',
+      code: 'https://github.com/ivan3123708/chat-app',
+      img: 'web_apps/chat_app.png'
+    },
+    {
       title: 'Mobile Shop',
       description: 'Fullstack mobile phones shopping cart app. User can register, view and filter products, add and remove products to cart, make an order, change account...',
       tools: ['material-ui', 'react', 'redux', 'webpack', 'node/express', 'mongodb', 'passport'],
