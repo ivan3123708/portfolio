@@ -11,7 +11,7 @@ module.exports = {
     {
       title: 'Mobile Shop',
       description: 'Fullstack mobile phones shopping cart app. User can register, view and filter products, add and remove products to cart, make an order, change account...',
-      tools: ['material-ui', 'react', 'redux', 'webpack', 'node/express', 'mongodb', 'passport'],
+      tools: ['react', 'node/express', 'mongodb', 'redux', 'material-ui', 'webpack', 'passport'],
       demo: 'http://ij-mobile-shop.herokuapp.com/',
       code: 'https://github.com/ivan3123708/fullstack-shopping-cart',
       img: 'web_apps/mobile_shop.jpg'
@@ -19,7 +19,7 @@ module.exports = {
     {
       title: 'World Factbook',
       description: 'Search countries, filter and sort the data. Made this project from scratch to practice react, redux, configuring webpack, fetching data from external API...',
-      tools: ['scss', 'react', 'redux', 'webpack', 'ajax'],
+      tools: ['react', 'redux', 'sass', 'webpack', 'ajax'],
       demo: 'https://ij-world-factbook.herokuapp.com/',
       code: 'https://github.com/ivan3123708/world-factbook',
       img: 'web_apps/world_factbook.jpg'
@@ -27,7 +27,7 @@ module.exports = {
     {
       title: 'Recipe Box',
       description: 'Building this app taught me how to configure webpack, setup simple express server, deploy on Heroku and many other things about React in general.',
-      tools: ['scss', 'react', 'webpack'],
+      tools: ['react', 'sass', 'webpack'],
       demo: 'https://ij-recipe-box.herokuapp.com/',
       code: 'https://github.com/ivan3123708/freeCodeCamp-React-D3-Projects/tree/master/Recipe%20Box',
       img: 'web_apps/recipe_box.jpg'
