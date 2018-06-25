@@ -33,6 +33,14 @@ module.exports = {
       img: 'web_apps/recipe_box.jpg'
     },
     {
+      title: 'Phone Book',
+      description: 'Simple phone book app with CRUD features (list all records, filter records, add record & delete record). Built with React & Node, data saved in MySQL database.',
+      tools: ['react', 'sass', 'webpack', 'node/express', 'mysql'],
+      demo: 'https://ij-phone-book.herokuapp.com/',
+      code: 'https://github.com/ivan3123708/phone-book-app',
+      img: 'web_apps/phone_book.png'
+    },
+    {
       title: 'Javascript Calculator',
       description: 'One of my first projects. Building it was great practice for CSS and jQuery, but also helped me understand Javascript data types better.',
       tools: ['html', 'css', 'javascript', 'jquery'],
@@ -55,14 +63,6 @@ module.exports = {
       demo: 'http://nosy-cause.surge.sh/',
       code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Random%20Quote%20Machine',
       img: 'web_apps/quotes.jpg'
-    },
-    {
-      title: 'Tic Tac Toe',
-      description: 'Classic tic-tac-toe game where user can choose whether to play with X or O and restart the game after round ends. Used bootstrap grid to align the fields.',
-      tools: ['html', 'css', 'bootstrap', 'jquery'],
-      demo: 'http://materialistic-shape.surge.sh/',
-      code: 'https://github.com/ivan3123708/freeCodeCamp-Front-end-Projects/tree/master/Tic%20Tac%20Toe',
-      img: 'web_apps/tic_tac_toe.jpg'
     },
     {
       title: 'Simon Game',
